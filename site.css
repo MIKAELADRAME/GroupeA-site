@@ -1,0 +1,82 @@
+
+nav ul li{
+    display: inline-block;
+  
+    background-color: aqua;
+    margin: 8px;
+    padding: 5px;
+border-radius: 8px;
+    
+}
+nav ul li:hover{
+    background-color: black;
+    color: white;
+    transition: 0.9s;
+    transform: translateY(10px);
+}
+.menu{
+    text-align: right;
+    background-color: rgb(213, 124, 28);
+
+}  
+
+H1{
+    text-align:center ;
+    color: rgb(38, 99, 19);
+    background-color: rgb(165, 149, 42);
+    margin-left: 180px;
+    margin-right: 180px;
+   border-radius: 30px;
+   padding: 15px;
+}
+.p1{
+    background-color: rgb(255, 98, 0);
+    text-align: center;
+    color: white;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    transition: 0.8s;
+}
+.p1:hover{
+    background-color: bisque;
+    color: black;
+}
+body{
+    background-image: url(image/exercise-motivation.jpg);
+}
+
+.dive{
+    display: flex;
+   
+}
+.divo{
+    background-color: aqua;
+    height: 100px;
+    width: 400px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 40px;
+    margin-left:140px ;
+    border: solid ;
+    transition:0.9s ;
+}
+.divo:hover{
+    background-color: blanchedalmond;
+    transform: translateY(20px);
+}
+button{
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 5px;
+    transition: 0.9s;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+.grand{
+    display: flex;
+}
+.pp{
+    color: white;
+}
